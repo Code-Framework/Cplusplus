@@ -7,7 +7,11 @@ int* ptr=&X;
 public:
 	Random(){
 		}
-	Random(int x, int y ){*(ptr)=x+y;}
+	Random(int x, int y )
+
+	{
+		*(ptr)=x+y;
+	}
 	void display()
 	{
 		cout<<X;
